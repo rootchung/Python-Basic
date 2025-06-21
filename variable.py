@@ -120,15 +120,38 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-print("hello, enter your name.")
-var1 = input()
-print("Welcome.", var1, ", enter your age")
-age = input()
-age = int(age)              # Convert to int
-year = 2025 - age
+# print("hello, enter your name.")
+# var1 = input()
+# print("Welcome.", var1, ", enter your age")
+# age = input()
+# age = int(age)              # Convert to int
+# year = 2025 - age
 
-print("You were born in", year,"! Enter your height.")
-height = int(input())       # Convert to an int as soon as get the input
-two_m = 200 - height
+# print("You were born in", year,"! Enter your height.")
+# height = int(input())       # Convert to an int as soon as get the input
+# two_m = 200 - height
 
-print("There are", two_m,"left intil 2m.")
+# print("There are", two_m,"left intil 2m")
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# +     add
+# -     subtract
+# *     multiply
+# /     divide (result is a float)
+# //    integer division (result is an int)
+# %     modulous (remainder)
+# **    expodent (power)
+
+a = 10
+b = 3
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+print(9/3)
