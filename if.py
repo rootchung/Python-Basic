@@ -84,10 +84,75 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-print("Enter number.")
-number = int(input())
+# print("Enter number.")
+# number = int(input())
 
-if(number%2==1):    # % is remainder
-    print("odd")
-else:
-    print("even")
+# if(number%2==1):    # % is remainder
+#     print("odd")
+# else:
+#     print("even")
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# not   : If True, the result is reversed to False. If it is False, the result is reversed to True.
+# and   : True if both sides are True, False if even one side is False
+# or    : False if both sides are False, True if at least one side is True
+# The execution order is excecuted in the order of not, and, or.
+
+# a = 10
+# b = 2
+
+# if((a == 10) and (b == 2)) :
+#     print("a is 10, and b is 2.")
+
+# if((a == 10) or (b ==2)) :
+#     print("At least one of a or b is 10.")
+
+# if(not(a == 5)) :           # same as a !=5
+#     print("a is not 5.")
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# Nested if
+# You can nest if statements
+
+
+# age = int(input("Enter your age: "))
+# is_member = input("Are you a member? (yes or no): ")
+
+# if(age >= 18):
+#     print("Hello, member.")
+
+#     if(is_member == "yes"):
+#         print("Adult member, welcome!")
+#     else:
+#         print("Adult non member, please sign up.")
+# else:
+#     if(is_member == "yes"):
+#         print("Teen member, welcome!")
+#     else:
+#         print("Teen non member, please sign up.")
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+print("Enter two numbers.")
+number = int(input())           # to save as a number(no text), then use int with input
+number1 = int(input())
+
+print("What calculation do you want to run?")
+print("(1:Multiply, 2:Divide, 3:Add, 4:Subtract)")
+number2 = int(input())
+if(number2 == 1):
+    print("Selected multiply",number,"*", number1, "=", number*number1)
+elif(number2 == 2):
+    print("Selected divide",number,"/", number1, "=", number//number1)
+elif(number2 == 3):
+    print("Selected add",number,"+", number1, "=", number+number1)
+elif(number2 == 4):
+    print("Selected subtract",number,"-", number1, "=", number-number1)
