@@ -141,18 +141,18 @@
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
 
-print("Enter two numbers.")
-number = int(input())           # to save as a number(no text), then use int with input
-number1 = int(input())
+# print("Enter two numbers.")
+# number = int(input())           # to save as a number(no text), then use int with input
+# number1 = int(input())
 
-print("What calculation do you want to run?")
-print("(1:Multiply, 2:Divide, 3:Add, 4:Subtract)")
-number2 = int(input())
-if(number2 == 1):
-    print("Selected multiply",number,"*", number1, "=", number*number1)
-elif(number2 == 2):
-    print("Selected divide",number,"/", number1, "=", number//number1)
-elif(number2 == 3):
-    print("Selected add",number,"+", number1, "=", number+number1)
-elif(number2 == 4):
-    print("Selected subtract",number,"-", number1, "=", number-number1)
+# print("What calculation do you want to run?")
+# print("(1:Multiply, 2:Divide, 3:Add, 4:Subtract)")
+# number2 = int(input())
+# if(number2 == 1):
+#     print("Selected multiply",number,"*", number1, "=", number*number1)
+# elif(number2 == 2):
+#     print("Selected divide",number,"/", number1, "=", number//number1)
+# elif(number2 == 3):
+#     print("Selected add",number,"+", number1, "=", number+number1)
+# elif(number2 == 4):
+#     print("Selected subtract",number,"-", number1, "=", number-number1)
