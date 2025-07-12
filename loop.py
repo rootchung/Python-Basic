@@ -37,8 +37,8 @@
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
-for x in range(1, 101, 1) :
-    print(x*x)
+# for x in range(1, 101, 1) :
+#     print(x*x)
 
 # to do to 1000, 100*100
 
@@ -52,10 +52,10 @@ for x in range(1, 101, 1) :
 # Used in this format
 # Similar to if statements, executes if the condition is True
 
-i = 0
-while(i < 5) :
-    print(i)
-    i += 1      # i = i +1, increment i
+# i = 0
+# while(i < 5) :
+#     print(i)
+#     i += 1      # i = i +1, increment i
 
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
@@ -87,11 +87,11 @@ while(i < 5) :
 # print fractions from 1 to 100
 
 
-i = 1
+# i = 1
 
-while(i < 101) :
-    print(1 / i)
-    i += 1
+# while(i < 101) :
+#     print(1 / i)
+#     i += 1
 
 # +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
 
@@ -129,25 +129,87 @@ while(i < 101) :
 
 
 # Sample of using infinite loop, continue, break
-while(True) :
-    print("Please choose a menu option:")
-    print(1. Print hello)
-    print("2. Print hi")
-    print("3. Exit")
-    menu = int(input())
+# while(True) :
+#     print("Please choose a menu option:")
+#     print("1. Print hello")
+#     print("2. Print hi")
+#     print("3. Exit")
+#     menu = int(input())
 
-    if (menu == 1) :
-        print("hello")
-    elif(menu == 2) :
-        print("hi")
-    elif(menu == 3) :
-        print("Exciting the menu program.")
-        break
-    else :
-        print("Inavalid input. Please enter a nuumbe between 1 and 3.")
-        print()
-        print()
-        continue
+#     if (menu == 1) :
+#         print("hello")
+#     elif(menu == 2) :
+#         print("hi")
+#     elif(menu == 3) :
+#         print("Exciting the menu program.")
+#         break
+#     else :
+#         print("Inavalid input. Please enter a nuumbe between 1 and 3.")
+#         print()
+#         print()
+#         continue
 
-    print()
-    print()
+#     print()
+#     print()
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# Nested loops
+# A loop inside another loop
+# Two nested loops are called double nested, three nested loops are called triple nested.
+# More than triple nested loops are rarely used.
+
+# for x in range(1, 10, 1) :          # repeats 9 times
+#     for y in range(1, 10, 1) :      # repeats 81 times in total
+#         print(x, "*", y, "=", x * y)
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+# for i in range(1, 20, 1) :
+#     for y in range(1, 10, 1) :
+#         print(i, "*", y, "=", i * y)
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# while() multiplication table
+# x = 1
+# while(x < 10) :
+#     y = 1
+#     while(y < 10) :
+#         print(x, "*", y, "=", x * y)
+#         y += 1
+#     x += 1
+
+# It is easier to use for for this code
+
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# for x in range(1, 10, 1) :
+#     for y in range(1, x+1, 1) :         # Can use an external variable in range
+#         print(x, "*", y, "=", x * y)
+
+
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# for i in range(1, 9, 1) :
+#     for j in range(i, i + 3, 1) :           # use i+3 instead of 1+3
+#         print(j)     
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
+
+
+for i in range(1, 6, 1) :
+    print('A')
+    for j in range(0, i, 1) :
+        print('B')                  # use print b or a for print if you want to loop letters with range code
