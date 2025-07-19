@@ -209,7 +209,7 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++#
 
 
-for i in range(1, 6, 1) :
-    print('A')
-    for j in range(0, i, 1) :
-        print('B')                  # use print b or a for print if you want to loop letters with range code
+# for i in range(1, 6, 1) :
+#     print('A')
+#     for j in range(0, i, 1) :
+#         print('B')                  # use print b or a for print if you want to loop letters with range code
